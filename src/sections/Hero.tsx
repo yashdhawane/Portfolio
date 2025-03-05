@@ -9,8 +9,8 @@ import { HeroOrbit } from "@/components/HeroOrbit";
 export const HeroSection = () => {
   return (
   <>
-  <div className="py-32 md:py-48  relative z-0 overflow-x-clip">
-    <div className="absolute inset-0 -z-10 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]"></div>
+  <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
+    <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)] ">
     <div 
       className="absolute inset-0 -z-30 opacity-5"
       style={{
@@ -20,7 +20,7 @@ export const HeroSection = () => {
       <div className="size-[620px] hero-ring"></div>
       <div className="size-[820px] hero-ring"></div>
       <div className="size-[1020px] hero-ring"></div>
-      <div className="size-[1330px] hero-ring"></div>
+      <div className="size-[1220px] hero-ring"></div>
       <HeroOrbit size={800} rotation={-72}>
       <StarIcon className="size-28 text-emerald-300"/>  
       </HeroOrbit>
@@ -52,6 +52,7 @@ export const HeroSection = () => {
       <HeroOrbit size={650} rotation={-5}>
           <div className="size-2 rounded-full text-emerald-300/20"/>  
       </HeroOrbit>
+      </div>
       
     <div className="container">
       <div className="flex flex-col items-center">
@@ -64,16 +65,18 @@ export const HeroSection = () => {
       </div>
       <div className="max-w-lg mx-auto">
       <h1 className="font-serif text-3xl text-center mt-8 tracking-wide">Building Exceptional User Experience</h1>
-      <p className="mt-4 text-center text-white/60 md:text-lg">Lrro ut, excepturi quia voluptates voluptas optcia omnis soluta!</p>
+      <p className="mt-4 text-center text-white/60 md:text-lg"> i specialize in transforming designs into functional,
+            high-performing web applications. Let&#39;s discuss your next
+            project.</p>
      </div>
-     <div className="flex justify-center gap-4 mt-8"> 
-  <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl cursor-pointer hover:bg-brown3 transition">
-    <span className="font-semibold">Explore</span>
+     <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4"> 
+  <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl  ">
+    <span className="font-semibold">Explore My Work</span>
     <ArrowDown className="size-4" />
   </button>
-  <button className="inline-flex items-center gap-2 border border-white/15 bg-white text-black px-6 h-12 rounded-xl cursor-pointer hover:bg-brown3 transition">
+  <button className="inline-flex items-center gap-2 border border-white/15 bg-white text-black px-6 h-12 rounded-xl  ">
     <span className="">👋</span>
-    <span className="font-semibold">Get in touch</span>
+    <span className="font-semibold">Let&#39;s Connect</span>
   </button>
 </div>
 
