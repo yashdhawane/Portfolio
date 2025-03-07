@@ -13,7 +13,8 @@ export default function Home() {
       <Header />
       <HeroSection />
       <ProjectsSection/>
-      
+      <TapeSection/>
+      <TestimonialsSection/>
     </>
   );
 }
