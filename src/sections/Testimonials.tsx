@@ -4,7 +4,7 @@ import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
 import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
 import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
 import Card from "@/components/Card";
-import SectionHeader from "@/components/sectionHeader";
+import SectionHeader from "@/components/SectionHeader";
 import Image from "next/image";
 const testimonials = [
   {
@@ -41,7 +41,8 @@ const testimonials = [
 
 export const TestimonialsSection = () => {
   return (
-    <div>
+    <div className="py-16 lg:py-24">
+      <div className="container">
        <SectionHeader
           title="Happy Clients"
           eyebrow="What Clients Say about Me"
@@ -49,7 +50,7 @@ export const TestimonialsSection = () => {
         about my work."
         />
         <div className="mt-12 lg:mt-24 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
-        <div className="flex gap-8 pr-8 flex-none animate-move-left">
+        <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:50s] hover:[animation-play-state:paused]">
           {testimonials.map((testimonial) => (
                   <Card
                     key={testimonial.name}
@@ -78,6 +79,7 @@ export const TestimonialsSection = () => {
       
           </div>
           </div>
+    </div>
     </div>
   );
 };

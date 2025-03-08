@@ -5,7 +5,7 @@ import grainImage from "@/assets/images/grain.jpg";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import Image from "next/image";
-import SectionHeader from "@/components/sectionHeader";
+import SectionHeader from "@/components/SectionHeader";
 const portfolioProjects = [
   {
     company: "Acme Corp",
