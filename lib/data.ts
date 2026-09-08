@@ -103,6 +103,20 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "ai-data-agent",
+    title: "AI Data Agent",
+    tagline: "AI-Powered Business Intelligence & Data Analysis",
+    description:
+      "AI Data Agent is an AI-powered data intelligence platform that understands your company's data, investigates complex business questions, discovers insights, and turns analysis into decision-ready intelligence",
+    stack: ["Next.js", "AI/ML", "TypeScript", "API Integration"],
+    year: "2026",
+    image:"/images/projects/ai-data-agent.png",
+    metric: "Data Intelligence",
+    github: "https://github.com/yashdhawane/AI-Data-Agent",
+    demo: "https://ai-data-agent-web.vercel.app/",
+    accent: "#7C3AED",
+  },
+  {
     id: "Zcrum",
     title: "Zcrum - Project anagement tool",
     tagline: "A JIRA-inspired project management platform for Agile teams.",
@@ -115,20 +129,6 @@ export const projects: Project[] = [
     github: "https://github.com/yashdhawane/zcrum-jira",
     demo: "https://zcrum-jira.vercel.app/",
     accent: "#E3A63D",
-  },
-  {
-    id: "RAG",
-    title: "Enterprise-Grade RAG Pipeline",
-    tagline: "Secure Enterprise RAG System",
-    description:
-      "A production-ready RAG platform that enables secure, context-aware knowledge retrieval through semantic search, document ingestion, and role-based access control.",
-    stack: ["LangChain", "Gemini", "FAISS", "Streamlit"],
-    year: "2026",
-    image:"/images/projects/RAG.png",
-    metric: "Multi-format doc support",
-    github: "https://github.com/yashdhawane/RAG-Pipeline",
-    demo: "https://rag-pipeline-7ja3k7vj9m8zmxdjaxs5qx.streamlit.app/",
-    accent: "#C97A3D",
   },
   {
     id: "bookmyscreen",
@@ -145,6 +145,20 @@ export const projects: Project[] = [
     accent: "#4FA3AE",
   },
   {
+    id: "RAG",
+    title: "Enterprise-Grade RAG Pipeline",
+    tagline: "Secure Enterprise RAG System",
+    description:
+      "A production-ready RAG platform that enables secure, context-aware knowledge retrieval through semantic search, document ingestion, and role-based access control.",
+    stack: ["LangChain", "Gemini", "FAISS", "Streamlit"],
+    year: "2026",
+    image:"/images/projects/RAG.png",
+    metric: "Multi-format doc support",
+    github: "https://github.com/yashdhawane/RAG-Pipeline",
+    demo: "https://rag-pipeline-7ja3k7vj9m8zmxdjaxs5qx.streamlit.app/",
+    accent: "#C97A3D",
+  },
+  {
     id: "Deep Research Agent",
     title: "Deep Research Agent ",
     tagline: "Multi-Agent Research system ",
@@ -157,6 +171,20 @@ export const projects: Project[] = [
     github: "https://github.com/yashdhawane/deep-research-assistant-",
     // demo: "https://routecast.yashdhawane.dev",
     accent: "#6E8A94",
+  },
+  {
+    id: "airbnb-clone",
+    title: "Airbnb Design Clone",
+    tagline: "AI-assisted coding to accelerate frontend development",
+    description:
+      "A visually accurate Airbnb frontend clone built to explore AI-assisted frontend development. I used AI coding tools to rapidly build, iterate, and refine reusable responsive components while focusing heavily on visual fidelity, layout, spacing, typography, and overall UI consistency.",
+    stack: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+    year: "2026",
+    image:"/images/projects/airbnb-clone.png",
+    metric: "Visual Fidelity",
+    github: "https://github.com/yashdhawane/airbnbclone",
+    demo: "https://airbnb-clone-umber-two.vercel.app/",
+    accent: "#FF385C",
   },
   {
     id: "Klimate",
