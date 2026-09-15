@@ -140,7 +140,7 @@ export const projects: Project[] = [
     year: "2026",
     metric: "handle concurrency",
     image:"/images/projects/bookmyscreen.png",
-    github: "https://github.com/yashdhawane/promptdeck",
+    github: "https://github.com/yashdhawane/Bookmyscreen",
     // demo: "https://promptdeck.yashdhawane.dev",
     accent: "#4FA3AE",
   },

@@ -1,7 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { IntroExperience } from "./IntroExperience";
 import { Nav } from "./Nav";
 import { Hero } from "./Hero";
 import { About } from "./About";
@@ -14,21 +12,11 @@ import { Contact } from "./Contact";
 import { Chatbot } from "./Chatbot";
 
 export function PortfolioShell() {
-  const [introActive, setIntroActive] = useState(true);
-
-  useEffect(() => {
-    document.body.style.overflow = introActive ? "hidden" : "";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [introActive]);
-
   return (
     <>
-      {introActive && <IntroExperience onComplete={() => setIntroActive(false)} />}
       <main id="top" className="relative">
         <Nav />
-        <Hero introDone={!introActive} />
+        <Hero introDone={true} />
         <About />
         <TechStack />
         <Projects />
